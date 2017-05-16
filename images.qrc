@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/ContinuousShot.png</file>
+        <file>images/OneShot.png</file>
+        <file>images/info.png</file>
+        <file>images/settings_32x32.png</file>
+        <file>images/refresh_32x32.png</file>
+        <file>images/Preview_32x32.png</file>
+        <file>images/get_info_32x32.png</file>
+        <file>images/play_32x32.png</file>
+        <file>images/zhifubao.jpg</file>
+    </qresource>
+</RCC>

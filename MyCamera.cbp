@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MyCamera"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\5.4\;CMake Files\..\..\5.4\clang_64\;CMake Files\..\..\5.4\clang_64\lib\;CMake Files\..\..\5.4\clang_64\lib\cmake\;CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5\;CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Core\;CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Gui\;CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Widgets\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/aihe/Qt5.4.0/workspace/MyCamera"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/aihe/Qt5.4.0/workspace/MyCamera"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/aihe/Qt5.4.0/workspace/MyCamera"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyCamera">
+				<Option output="/Users/aihe/Qt5.4.0/workspace/MyCamera/MyCamera" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aihe/Qt5.4.0/workspace/MyCamera"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/Users/aihe/Qt5.4.0/workspace/MyCamera"/>
+					<Add directory="/Users/aihe/Qt5.4.0/workspace/MyCamera/Qt5::Core"/>
+					<Add directory="/Users/aihe/Qt5.4.0/workspace/MyCamera/Qt5::Gui"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Library/Frameworks/pylon.framework/Headers/GenICam"/>
+					<Add directory="/Users/aihe/Qt5.4.0/5.4/clang_64/lib/QtCore.framework"/>
+					<Add directory="/Users/aihe/Qt5.4.0/5.4/clang_64/lib/QtCore.framework/Headers"/>
+					<Add directory="/Users/aihe/Qt5.4.0/5.4/clang_64/mkspecs/macx-clang"/>
+					<Add directory="/Users/aihe/Qt5.4.0/5.4/clang_64/lib/QtGui.framework"/>
+					<Add directory="/Users/aihe/Qt5.4.0/5.4/clang_64/lib/QtGui.framework/Headers"/>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/Users/aihe/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework"/>
+					<Add directory="/Users/aihe/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 MyCamera"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyCamera/fast">
+				<Option output="/Users/aihe/Qt5.4.0/workspace/MyCamera/MyCamera" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aihe/Qt5.4.0/workspace/MyCamera"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/Users/aihe/Qt5.4.0/workspace/MyCamera"/>
+					<Add directory="/Users/aihe/Qt5.4.0/workspace/MyCamera/Qt5::Core"/>
+					<Add directory="/Users/aihe/Qt5.4.0/workspace/MyCamera/Qt5::Gui"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Library/Frameworks/pylon.framework/Headers/GenICam"/>
+					<Add directory="/Users/aihe/Qt5.4.0/5.4/clang_64/lib/QtCore.framework"/>
+					<Add directory="/Users/aihe/Qt5.4.0/5.4/clang_64/lib/QtCore.framework/Headers"/>
+					<Add directory="/Users/aihe/Qt5.4.0/5.4/clang_64/mkspecs/macx-clang"/>
+					<Add directory="/Users/aihe/Qt5.4.0/5.4/clang_64/lib/QtGui.framework"/>
+					<Add directory="/Users/aihe/Qt5.4.0/5.4/clang_64/lib/QtGui.framework/Headers"/>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/Users/aihe/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework"/>
+					<Add directory="/Users/aihe/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 MyCamera/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyCamera_automoc">
+				<Option working_dir="/Users/aihe/Qt5.4.0/workspace/MyCamera"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 MyCamera_automoc"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aihe/Qt5.4.0/workspace/MyCamera/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/MyCamera_automoc.cpp">
+			<Option target="MyCamera"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/main.cpp">
+			<Option target="MyCamera"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/mainwindow.cpp">
+			<Option target="MyCamera"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/mainwindow.h">
+			<Option target="MyCamera"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/mainwindow.ui">
+			<Option target="MyCamera"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/moc_mainwindow.cpp">
+			<Option target="MyCamera"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/moc_mainwindow.cpp.rule">
+			<Option target="MyCamera"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/moc_myfram.cpp">
+			<Option target="MyCamera"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/moc_myfram.cpp.rule">
+			<Option target="MyCamera"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/myfram.cpp">
+			<Option target="MyCamera"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/myfram.h">
+			<Option target="MyCamera"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/myfram.ui">
+			<Option target="MyCamera"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/ui_mainwindow.h">
+			<Option target="MyCamera"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/ui_myfram.h">
+			<Option target="MyCamera"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/aihe/Qt5.4.0/workspace/MyCamera/../../5.4/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\5.4\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

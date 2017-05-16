@@ -1,0 +1,14 @@
+.DS_Store
+.qmake.stash
+.idea/
+CMakeFiles/
+cmake-build-debug/
+MyCamera_automoc.dir/
+CMakeLists-MyCamera.pro.txt
+MyCamera.pro.user
+MyCamera_automoc.cpp
+mainwindow.ui.bak
+moc_mainwindow.cpp
+moc_mainwindow.cpp_parameters
+moc_myfram.cpp
+moc_myfram.cpp_parameters
