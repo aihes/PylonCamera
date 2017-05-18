@@ -4,6 +4,14 @@
 CMakeFiles/
 cmake-build-debug/
 MyCamera_automoc.dir/
+debug/
+release/
+MyCamera.vcxproj*
+MyCamera.sdf
+MyCamera.opensdf
+MyCamera.sln
+mainwindow.h.*
+
 CMakeLists-MyCamera.pro.txt
 CMakeCache.txt
 MyCamera.pro.user

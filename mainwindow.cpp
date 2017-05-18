@@ -394,7 +394,7 @@ void MainWindow::multiGrab(){
              QProgressDialog dialog;
              connect(&dialog,SIGNAL(canceled()),this,SLOT(startPreview()));
              dialog.setRange(0,saveSettings->image2save);
-             dialog.setLabelText(QString("正在保存第%1张图片").arg(imageSaved));
+             dialog.setLabelText(QString("save %1 picture").arg(imageSaved));
              dialog.show();
 
              while(m_camera.IsGrabbing())
@@ -414,7 +414,7 @@ void MainWindow::multiGrab(){
 
                        CImagePersistence::Save( saveSettings->format, filePath.toUtf8().constData(), ptrGrabResult);
                        imageSaved++;
-                       dialog.setLabelText(QString("正在保存第%1张图片").arg(imageSaved));
+                       dialog.setLabelText(QString("save %1 picture").arg(imageSaved));
                        dialog.setValue(imageSaved);
                        if(imageSaved > saveSettings->image2save) {
                             m_camera.StopGrabbing();

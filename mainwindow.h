@@ -5,7 +5,8 @@
 #include <pylon/usb/BaslerUsbCamera.h>
 #include <QMainWindow>
 #include <pylon/PylonIncludes.h>
-#include <boost/thread.hpp>
+//#include <boost/thread.hpp>
+//#include <opencv2/opencv.hpp>
 #include <opencv2/highgui.hpp>
 
 #include <QEvent>

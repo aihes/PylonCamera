@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'aboutdialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.4.0
+** Created by: Qt User Interface Compiler version 5.8.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -58,10 +58,10 @@ public:
 
     void retranslateUi(QDialog *AboutDialog)
     {
-        AboutDialog->setWindowTitle(QApplication::translate("AboutDialog", "Dialog", 0));
+        AboutDialog->setWindowTitle(QApplication::translate("AboutDialog", "Dialog", Q_NULLPTR));
         zhifubao->setText(QString());
-        label_2->setText(QApplication::translate("AboutDialog", "\346\224\257\344\273\230\345\256\235\346\211\223\350\265\217", 0));
-        label->setText(QApplication::translate("AboutDialog", "\346\234\211\351\227\256\351\242\230: aihehe123@gmail.com", 0));
+        label_2->setText(QApplication::translate("AboutDialog", "\346\224\257\344\273\230\345\256\235\346\211\223\350\265\217", Q_NULLPTR));
+        label->setText(QApplication::translate("AboutDialog", "\346\234\211\351\227\256\351\242\230: aihehe123@gmail.com", Q_NULLPTR));
     } // retranslateUi
 
 };

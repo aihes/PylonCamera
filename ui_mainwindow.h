@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.4.0
+** Created by: Qt User Interface Compiler version 5.8.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -263,40 +263,40 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0));
-        actionPreview->setText(QApplication::translate("MainWindow", "\351\242\204\350\247\210", 0));
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", Q_NULLPTR));
+        actionPreview->setText(QApplication::translate("MainWindow", "\351\242\204\350\247\210", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        actionPreview->setToolTip(QApplication::translate("MainWindow", "\351\242\204\350\247\210", 0));
+        actionPreview->setToolTip(QApplication::translate("MainWindow", "\351\242\204\350\247\210", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        actionCollectSingle->setText(QApplication::translate("MainWindow", "\345\215\225\345\274\240\351\207\207\351\233\206", 0));
+        actionCollectSingle->setText(QApplication::translate("MainWindow", "\345\215\225\345\274\240\351\207\207\351\233\206", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        actionCollectSingle->setToolTip(QApplication::translate("MainWindow", "\345\215\225\345\274\240\351\207\207\351\233\206", 0));
+        actionCollectSingle->setToolTip(QApplication::translate("MainWindow", "\345\215\225\345\274\240\351\207\207\351\233\206", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        actionCollectMulti->setText(QApplication::translate("MainWindow", "\350\277\236\347\273\255\351\207\207\351\233\206", 0));
+        actionCollectMulti->setText(QApplication::translate("MainWindow", "\350\277\236\347\273\255\351\207\207\351\233\206", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        actionCollectMulti->setToolTip(QApplication::translate("MainWindow", "\350\277\236\347\273\255\351\207\207\351\233\206", 0));
+        actionCollectMulti->setToolTip(QApplication::translate("MainWindow", "\350\277\236\347\273\255\351\207\207\351\233\206", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        actionSetting->setText(QApplication::translate("MainWindow", "\350\256\276\347\275\256", 0));
+        actionSetting->setText(QApplication::translate("MainWindow", "\350\256\276\347\275\256", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        actionSetting->setToolTip(QApplication::translate("MainWindow", "\350\256\276\347\275\256", 0));
+        actionSetting->setToolTip(QApplication::translate("MainWindow", "\350\256\276\347\275\256", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        actionAbout->setText(QApplication::translate("MainWindow", "\345\270\256\345\212\251", 0));
+        actionAbout->setText(QApplication::translate("MainWindow", "\345\270\256\345\212\251", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        actionAbout->setToolTip(QApplication::translate("MainWindow", "\345\270\256\345\212\251", 0));
+        actionAbout->setToolTip(QApplication::translate("MainWindow", "\345\270\256\345\212\251", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        actionRefresh->setText(QApplication::translate("MainWindow", "\345\210\267\346\226\260", 0));
-        actionSpaceAlgo->setText(QApplication::translate("MainWindow", "\347\251\272\351\227\264\347\256\227\346\263\225", 0));
-        actionCloseAlgo->setText(QApplication::translate("MainWindow", "\345\205\263\351\227\255\347\256\227\346\263\225", 0));
-        srcHeader->setText(QApplication::translate("MainWindow", "\351\242\204\350\247\210\345\214\272\345\237\237", 0));
+        actionRefresh->setText(QApplication::translate("MainWindow", "\345\210\267\346\226\260", Q_NULLPTR));
+        actionSpaceAlgo->setText(QApplication::translate("MainWindow", "\347\251\272\351\227\264\347\256\227\346\263\225", Q_NULLPTR));
+        actionCloseAlgo->setText(QApplication::translate("MainWindow", "\345\205\263\351\227\255\347\256\227\346\263\225", Q_NULLPTR));
+        srcHeader->setText(QApplication::translate("MainWindow", "\351\242\204\350\247\210\345\214\272\345\237\237", Q_NULLPTR));
         srcDisplay->setText(QString());
-        sizeLabel->setText(QApplication::translate("MainWindow", "\345\260\272\345\257\270", 0));
-        sizeValue->setText(QApplication::translate("MainWindow", "TextLabel", 0));
-        scaleLabel->setText(QApplication::translate("MainWindow", "\347\274\251\346\224\276", 0));
-        scaleValue->setText(QApplication::translate("MainWindow", "TextLabel", 0));
-        collectionLabel->setText(QApplication::translate("MainWindow", "\351\207\207\351\233\206\346\225\260\351\207\217", 0));
-        collectionValue->setText(QApplication::translate("MainWindow", "TextLabel", 0));
-        fpsLabel->setText(QApplication::translate("MainWindow", "\345\270\247\351\242\221", 0));
-        fpsValue->setText(QApplication::translate("MainWindow", "TextLabel", 0));
+        sizeLabel->setText(QApplication::translate("MainWindow", "\345\260\272\345\257\270", Q_NULLPTR));
+        sizeValue->setText(QApplication::translate("MainWindow", "TextLabel", Q_NULLPTR));
+        scaleLabel->setText(QApplication::translate("MainWindow", "\347\274\251\346\224\276", Q_NULLPTR));
+        scaleValue->setText(QApplication::translate("MainWindow", "TextLabel", Q_NULLPTR));
+        collectionLabel->setText(QApplication::translate("MainWindow", "\351\207\207\351\233\206\346\225\260\351\207\217", Q_NULLPTR));
+        collectionValue->setText(QApplication::translate("MainWindow", "TextLabel", Q_NULLPTR));
+        fpsLabel->setText(QApplication::translate("MainWindow", "\345\270\247\351\242\221", Q_NULLPTR));
+        fpsValue->setText(QApplication::translate("MainWindow", "TextLabel", Q_NULLPTR));
         destDisplay->setText(QString());
     } // retranslateUi
 

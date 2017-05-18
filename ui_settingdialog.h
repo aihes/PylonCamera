@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'settingdialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.4.0
+** Created by: Qt User Interface Compiler version 5.8.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -280,48 +280,48 @@ public:
 
     void retranslateUi(QDialog *SettingDialog)
     {
-        SettingDialog->setWindowTitle(QApplication::translate("SettingDialog", "Dialog", 0));
-        label->setText(QApplication::translate("SettingDialog", "\347\233\270\346\234\272\350\256\276\347\275\256", 0));
+        SettingDialog->setWindowTitle(QApplication::translate("SettingDialog", "Dialog", Q_NULLPTR));
+        label->setText(QApplication::translate("SettingDialog", "\347\233\270\346\234\272\350\256\276\347\275\256", Q_NULLPTR));
         label_12->setText(QString());
-        filePath->setText(QApplication::translate("SettingDialog", "/Users/aihe/images", 0));
-        label_3->setText(QApplication::translate("SettingDialog", "\344\277\235\345\255\230\350\267\257\345\276\204", 0));
-        filePrefix->setText(QApplication::translate("SettingDialog", "capture", 0));
+        filePath->setText(QApplication::translate("SettingDialog", "/Users/aihe/images", Q_NULLPTR));
+        label_3->setText(QApplication::translate("SettingDialog", "\344\277\235\345\255\230\350\267\257\345\276\204", Q_NULLPTR));
+        filePrefix->setText(QApplication::translate("SettingDialog", "capture", Q_NULLPTR));
         label_11->setText(QString());
-        selectDir->setText(QApplication::translate("SettingDialog", "...", 0));
+        selectDir->setText(QApplication::translate("SettingDialog", "...", Q_NULLPTR));
         imageFormat->clear();
         imageFormat->insertItems(0, QStringList()
-         << QApplication::translate("SettingDialog", "png", 0)
-         << QApplication::translate("SettingDialog", "tiff", 0)
+         << QApplication::translate("SettingDialog", "png", Q_NULLPTR)
+         << QApplication::translate("SettingDialog", "tiff", Q_NULLPTR)
         );
         resolution->clear();
         resolution->insertItems(0, QStringList()
-         << QApplication::translate("SettingDialog", "658x492", 0)
-         << QApplication::translate("SettingDialog", "600x400", 0)
-         << QApplication::translate("SettingDialog", "300x200", 0)
+         << QApplication::translate("SettingDialog", "658x492", Q_NULLPTR)
+         << QApplication::translate("SettingDialog", "600x400", Q_NULLPTR)
+         << QApplication::translate("SettingDialog", "300x200", Q_NULLPTR)
         );
-        label_6->setText(QApplication::translate("SettingDialog", "\346\233\235\345\205\211\346\227\266\351\227\264", 0));
-        label_15->setText(QApplication::translate("SettingDialog", "fps", 0));
-        label_2->setText(QApplication::translate("SettingDialog", "\346\226\207\344\273\266\345\220\215\345\211\215\347\274\200", 0));
-        label_18->setText(QApplication::translate("SettingDialog", "\345\210\206\350\276\250\347\216\207", 0));
-        label_4->setText(QApplication::translate("SettingDialog", "\351\207\207\351\233\206\346\225\260\351\207\217", 0));
-        label_13->setText(QApplication::translate("SettingDialog", "\345\274\240", 0));
-        image2save->setText(QApplication::translate("SettingDialog", "200", 0));
-        label_5->setText(QApplication::translate("SettingDialog", "\345\270\247\351\242\221", 0));
-        label_14->setText(QApplication::translate("SettingDialog", "us", 0));
-        customAttr->setPlaceholderText(QApplication::translate("SettingDialog", "\350\207\252\345\256\232\344\271\211\345\261\236\346\200\247", 0));
-        customValue->setPlaceholderText(QApplication::translate("SettingDialog", "\350\207\252\345\256\232\344\271\211\345\261\236\346\200\247\345\200\274", 0));
+        label_6->setText(QApplication::translate("SettingDialog", "\346\233\235\345\205\211\346\227\266\351\227\264", Q_NULLPTR));
+        label_15->setText(QApplication::translate("SettingDialog", "fps", Q_NULLPTR));
+        label_2->setText(QApplication::translate("SettingDialog", "\346\226\207\344\273\266\345\220\215\345\211\215\347\274\200", Q_NULLPTR));
+        label_18->setText(QApplication::translate("SettingDialog", "\345\210\206\350\276\250\347\216\207", Q_NULLPTR));
+        label_4->setText(QApplication::translate("SettingDialog", "\351\207\207\351\233\206\346\225\260\351\207\217", Q_NULLPTR));
+        label_13->setText(QApplication::translate("SettingDialog", "\345\274\240", Q_NULLPTR));
+        image2save->setText(QApplication::translate("SettingDialog", "200", Q_NULLPTR));
+        label_5->setText(QApplication::translate("SettingDialog", "\345\270\247\351\242\221", Q_NULLPTR));
+        label_14->setText(QApplication::translate("SettingDialog", "us", Q_NULLPTR));
+        customAttr->setPlaceholderText(QApplication::translate("SettingDialog", "\350\207\252\345\256\232\344\271\211\345\261\236\346\200\247", Q_NULLPTR));
+        customValue->setPlaceholderText(QApplication::translate("SettingDialog", "\350\207\252\345\256\232\344\271\211\345\261\236\346\200\247\345\200\274", Q_NULLPTR));
         customType->clear();
         customType->insertItems(0, QStringList()
-         << QApplication::translate("SettingDialog", "int", 0)
-         << QApplication::translate("SettingDialog", "float", 0)
-         << QApplication::translate("SettingDialog", "bool", 0)
-         << QApplication::translate("SettingDialog", "string", 0)
+         << QApplication::translate("SettingDialog", "int", Q_NULLPTR)
+         << QApplication::translate("SettingDialog", "float", Q_NULLPTR)
+         << QApplication::translate("SettingDialog", "bool", Q_NULLPTR)
+         << QApplication::translate("SettingDialog", "string", Q_NULLPTR)
         );
-        label_7->setText(QApplication::translate("SettingDialog", "\347\205\247\347\211\207\345\244\247\345\260\217", 0));
-        label_10->setText(QApplication::translate("SettingDialog", "\351\253\230\345\272\246", 0));
-        label_9->setText(QApplication::translate("SettingDialog", "\345\256\275\345\272\246", 0));
-        label_8->setText(QApplication::translate("SettingDialog", "px", 0));
-        label_16->setText(QApplication::translate("SettingDialog", "px", 0));
+        label_7->setText(QApplication::translate("SettingDialog", "\347\205\247\347\211\207\345\244\247\345\260\217", Q_NULLPTR));
+        label_10->setText(QApplication::translate("SettingDialog", "\351\253\230\345\272\246", Q_NULLPTR));
+        label_9->setText(QApplication::translate("SettingDialog", "\345\256\275\345\272\246", Q_NULLPTR));
+        label_8->setText(QApplication::translate("SettingDialog", "px", Q_NULLPTR));
+        label_16->setText(QApplication::translate("SettingDialog", "px", Q_NULLPTR));
     } // retranslateUi
 
 };

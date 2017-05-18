@@ -30,19 +30,44 @@ FORMS    += mainwindow.ui \
     settingdialog.ui \
     aboutdialog.ui
 
-QT_CONFIG -= no-pkg-config
-CONFIG  += link_pkgconfig
-PKGCONFIG += opencv
 
-INCLUDEPATH += /opt/local/include
-LIBS += -L/opt/local/lib
-LIBS += -lboost_thread-mt -lboost_system-mt
+macx {
+     message("Using Macx configuration")
 
-INCLUDEPATH += /Library/Frameworks/pylon.framework/Headers/GenICam
-LIBS += -F/Library/Frameworks -framework pylon
+    QT_CONFIG -= no-pkg-config
+    CONFIG  += link_pkgconfig
+    PKGCONFIG += opencv
+
+    INCLUDEPATH += /opt/local/include
+    LIBS += -L/opt/local/lib
+    LIBS += -lboost_thread-mt -lboost_system-mt
+
+    INCLUDEPATH += /Library/Frameworks/pylon.framework/Headers/GenICam
+    LIBS += -F/Library/Frameworks -framework pylon
+}
+
+win32 {
+     message("Using win32 configuration")
+
+
+     INCLUDEPATH +=  D:\OpenCV2\opencv\build\include
+     INCLUDEPATH +=  D:\OpenCV2\opencv\build\include\opencv
+     INCLUDEPATH +=  D:\OpenCV2\opencv\build\include\opencv2
+
+     INCLUDEPATH += D:\pylon5\Development\include
+     LIBS += D:\pylon5\Development\lib\Win32
+
+     OPENCV_PATH =  D:\OpenCV2\opencv
+     LIBS_PATH = "$$OPENCV_PATH/build/x64/vc12/lib"
+     LIBS += -L$$LIBS_PATH \
+                -lopencv_core2413d \
+                -lopencv_highgui2413d
+}
+
 
 RESOURCES += \
     images.qrc
 
 DISTFILES += \
     config.json
+
