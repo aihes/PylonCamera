@@ -6,7 +6,9 @@
 #include <opencv2/imgproc/imgproc.hpp>
 
 #include <pylon/usb/BaslerUsbInstantCamera.h>
+#include <stdio.h>
 
+#include <stdlib.h>
 #include "settingdialog.h"
 #include "aboutdialog.h"
 
@@ -40,9 +42,10 @@ MainWindow::MainWindow(QWidget *parent) :
     addToolBar(Qt::RightToolBarArea,mytoolbar);
     connect(ui->actionCloseAlgo,SIGNAL(triggered()),this,SLOT(algoArea()));
 
-
     smallSize = QSize(750,this->height());
     bigSize = this->size();
+
+
     algoArea();
 }
 
@@ -205,13 +208,14 @@ void MainWindow::startPreview(){
                  }
                  */
 
-                 cvtColor(openCvImage, openCvGrayImage, COLOR_RGB2GRAY);
-                 openCvGrayImage = spatial_LSI(openCvImage,5);
-                 QImage destImage(openCvGrayImage.data,openCvGrayImage.cols,openCvGrayImage.rows,openCvGrayImage.step,QImage::Format_Indexed8);
+                 if(!ui->destDisplay->isHidden()){
+                     cvtColor(openCvImage, openCvGrayImage, COLOR_RGB2GRAY);
+                     openCvGrayImage = spatial_LSI(openCvImage,5);
+                     QImage destImage(openCvGrayImage.data,openCvGrayImage.cols,openCvGrayImage.rows,openCvGrayImage.step,QImage::Format_RGB32);
+                     ui->destDisplay->setPixmap(QPixmap::fromImage(destImage.scaled(ui->destDisplay->width(),ui->destDisplay->height())));
+                     ui->destDisplay->update();
+                 }
 
-                 ui->destDisplay->setPixmap(QPixmap::fromImage(destImage.scaled(ui->destDisplay->width(),ui->destDisplay->height())));
-
-                 ui->destDisplay->update();
              }
              else
              {
@@ -453,23 +457,23 @@ Mat MainWindow::spatial_LSI(Mat speckle,int m){
 
     Mat spatial_masker = Mat::ones(m,n,CV_32FC1)/(m*n);
     Mat resultSum;
-    conv2(speckle,spatial_masker,ConvolutionType::CONVOLUTION_SAME,resultSum);
+    conv2(speckle,spatial_masker,CONVOLUTION_SAME,resultSum);
 
     Mat resultSqure;
     Mat speckeSqure;
     cv::pow(speckle,2,speckeSqure);
 
-    conv2(speckeSqure,spatial_masker,ConvolutionType::CONVOLUTION_SAME,resultSqure);
+    conv2(speckeSqure,spatial_masker,CONVOLUTION_SAME,resultSqure);
 
     Mat tmp;
     cv::pow(resultSum,2,tmp);
 
     Mat trueResult;
-    cv::divide((resultSqure - tmp),tmp,trueResult);
+    cv::divide((resultSqure - tmp)*1.0,tmp,trueResult);
 
-//    trueResult.convertTo(trueResult,CV_8UC3);
-//    cvtColor(trueResult,trueResult,CV_GRAY2RGB);
-    return trueResult * 10;
+    imshow("myWindow",abs( trueResult )*10);
+    trueResult = abs( trueResult );
+    return trueResult;
 
 }
 
@@ -500,13 +504,9 @@ void MainWindow::spatial_LSI_Matlab(){
     QString filePath = "/tmp/t.png";
     ui->srcDisplay->pixmap()->save(filePath);
 
-//    QString filePath = "/Users/aihe/tmp/datauint16.png";
-
     Mat speckle;
     speckle = imread(filePath.toUtf8().constData(), CV_LOAD_IMAGE_GRAYSCALE);
     speckle.convertTo(speckle, CV_32FC1);
-
-//    cout << speckle;
 
     int m = 5;
     int n = m;
@@ -540,13 +540,16 @@ void MainWindow::algoArea(){
 
         setGeometry(
                      ceil((deskW - w)/2),
-                     0,
+                     20,
                     w,
                     this->height()
                     );
 
         setFixedSize(w,this->height());
         ui->destDisplay->setHidden(false);
+
+        int h = (ui->destDisplay->width() * atoi( saveSettings->height.c_str() ) / atoi( saveSettings->width.c_str()));
+        ui->destDisplay->setGeometry(ui->destDisplay->geometry().x(),ui->srcDisplay->geometry().y(), ui->destDisplay->width(),h);
 
     }else{
         isAlgoAreaOpened = true;
@@ -557,7 +560,7 @@ void MainWindow::algoArea(){
         int w = smallSize.width() + 20;
         setGeometry(
                      ceil((deskW - w)/2),
-                     0,
+                     20,
                     w,
                     this->height()
                     );

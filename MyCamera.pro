@@ -31,6 +31,13 @@ FORMS    += mainwindow.ui \
     aboutdialog.ui
 
 
+RESOURCES += \
+    images.qrc
+
+DISTFILES += \
+    config.json
+
+
 macx {
      message("Using Macx configuration")
 
@@ -88,10 +95,4 @@ win32 {
                 -lopencv_highgui2413d
 }
 
-
-RESOURCES += \
-    images.qrc
-
-DISTFILES += \
-    config.json
 
