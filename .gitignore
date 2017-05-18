@@ -21,3 +21,4 @@ moc_mainwindow.cpp
 moc_mainwindow.cpp_parameters
 moc_myfram.cpp
 moc_myfram.cpp_parameters
+ui_*.h
