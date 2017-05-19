@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1077</width>
-    <height>669</height>
+    <width>1087</width>
+    <height>629</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -23,190 +23,190 @@
    <property name="minimumSize">
     <size>
      <width>684</width>
-     <height>520</height>
+     <height>550</height>
     </size>
    </property>
    <property name="maximumSize">
     <size>
      <width>1120</width>
-     <height>520</height>
+     <height>550</height>
     </size>
    </property>
-   <layout class="QGridLayout" name="gridLayout">
-    <item row="0" column="0">
-     <layout class="QHBoxLayout" name="horizontalLayout">
+   <widget class="QLabel" name="destDisplay">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>10</y>
+      <width>381</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QFrame" name="srcFrame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>661</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>661</width>
+       <height>531</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="srcVerticalLayout" stretch="0,1,0">
       <item>
-       <widget class="QFrame" name="srcFrame">
-        <property name="frameShape">
-         <enum>QFrame::StyledPanel</enum>
+       <widget class="QLabel" name="srcHeader">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
         </property>
-        <property name="frameShadow">
-         <enum>QFrame::Raised</enum>
+        <property name="styleSheet">
+         <string notr="true">width: 100%;</string>
         </property>
-        <widget class="QWidget" name="layoutWidget">
-         <property name="geometry">
-          <rect>
-           <x>0</x>
-           <y>0</y>
-           <width>661</width>
-           <height>491</height>
-          </rect>
-         </property>
-         <layout class="QVBoxLayout" name="srcVerticalLayout" stretch="0,1,0">
-          <item>
-           <widget class="QLabel" name="srcHeader">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">width: 100%;</string>
-            </property>
-            <property name="text">
-             <string>预览区域</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="srcDisplay">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="minimumSize">
-             <size>
-              <width>0</width>
-              <height>0</height>
-             </size>
-            </property>
-            <property name="autoFillBackground">
-             <bool>false</bool>
-            </property>
-            <property name="styleSheet">
-             <string notr="true"/>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <layout class="QHBoxLayout" name="srcBottomhorizontalLayout">
-            <property name="spacing">
-             <number>0</number>
-            </property>
-            <item>
-             <layout class="QHBoxLayout" name="sizehorizontalLayout">
-              <item>
-               <widget class="QLabel" name="sizeLabel">
-                <property name="text">
-                 <string>尺寸</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLabel" name="sizeValue">
-                <property name="text">
-                 <string>TextLabel</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </item>
-            <item>
-             <layout class="QHBoxLayout" name="scalehorizontalLayout">
-              <item>
-               <widget class="QLabel" name="scaleLabel">
-                <property name="text">
-                 <string>缩放</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLabel" name="scaleValue">
-                <property name="text">
-                 <string>TextLabel</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </item>
-            <item>
-             <layout class="QHBoxLayout" name="collectionhorizontalLayout">
-              <item>
-               <widget class="QLabel" name="collectionLabel">
-                <property name="cursor">
-                 <cursorShape>ArrowCursor</cursorShape>
-                </property>
-                <property name="text">
-                 <string>采集数量</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLabel" name="collectionValue">
-                <property name="text">
-                 <string>TextLabel</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </item>
-            <item>
-             <layout class="QHBoxLayout" name="fpshorizontalLayout">
-              <item>
-               <widget class="QLabel" name="fpsLabel">
-                <property name="text">
-                 <string>帧频</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLabel" name="fpsValue">
-                <property name="text">
-                 <string>TextLabel</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </item>
-           </layout>
-          </item>
-         </layout>
-        </widget>
-        <widget class="QLabel" name="destDisplay">
-         <property name="geometry">
-          <rect>
-           <x>660</x>
-           <y>30</y>
-           <width>381</width>
-           <height>331</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
+        <property name="text">
+         <string>预览区域</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
        </widget>
       </item>
+      <item>
+       <widget class="QLabel" name="srcDisplay">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="srcBottomhorizontalLayout">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="sizehorizontalLayout">
+          <item>
+           <widget class="QLabel" name="sizeLabel">
+            <property name="text">
+             <string>尺寸</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="sizeValue">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="scalehorizontalLayout">
+          <item>
+           <widget class="QLabel" name="scaleLabel">
+            <property name="text">
+             <string>缩放</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="scaleValue">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="collectionhorizontalLayout">
+          <item>
+           <widget class="QLabel" name="collectionLabel">
+            <property name="cursor">
+             <cursorShape>ArrowCursor</cursorShape>
+            </property>
+            <property name="text">
+             <string>采集数量</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="collectionValue">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="fpshorizontalLayout">
+          <item>
+           <widget class="QLabel" name="fpsLabel">
+            <property name="text">
+             <string>帧频</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="fpsValue">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
      </layout>
-    </item>
-   </layout>
+    </widget>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1077</width>
-     <height>22</height>
+     <width>1087</width>
+     <height>23</height>
     </rect>
    </property>
   </widget>

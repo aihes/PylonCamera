@@ -540,7 +540,7 @@ void MainWindow::algoArea(){
 
         setGeometry(
                      ceil((deskW - w)/2),
-                     20,
+                     50,
                     w,
                     this->height()
                     );
@@ -550,6 +550,10 @@ void MainWindow::algoArea(){
 
         int h = (ui->destDisplay->width() * atoi( saveSettings->height.c_str() ) / atoi( saveSettings->width.c_str()));
         ui->destDisplay->setGeometry(ui->destDisplay->geometry().x(),ui->srcDisplay->geometry().y(), ui->destDisplay->width(),h);
+		ui->srcFrame->setGeometry(ui->srcFrame->geometry().x(), ui->srcFrame->geometry().y(), 658, 531);
+		ui->srcHeader->resize(658, ui->srcHeader->size().height());
+		ui->srcBottomhorizontalLayout->setGeometry(QRect(0, ui->srcBottomhorizontalLayout->geometry().y(), 658, ui->srcHeader->size().height()));
+		ui->srcHeader->resize(658, ui->srcHeader->size().height());
 
     }else{
         isAlgoAreaOpened = true;
@@ -560,13 +564,16 @@ void MainWindow::algoArea(){
         int w = smallSize.width() + 20;
         setGeometry(
                      ceil((deskW - w)/2),
-                     20,
+                     50,
                     w,
                     this->height()
                     );
 
         setFixedSize(w,this->height());
         ui->destDisplay->setHidden(true);
+		ui->srcFrame->setGeometry(ui->srcFrame->geometry().x(), ui->srcFrame->geometry().y(), 658, 531);
+		ui->srcBottomhorizontalLayout->setGeometry(QRect(0, ui->srcBottomhorizontalLayout->geometry().y(), 658, ui->srcHeader->size().height()));
+		ui->srcHeader->resize(658, ui->srcHeader->size().height());
 
 
     }
