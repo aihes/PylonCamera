@@ -1,6 +1,6 @@
 .DS_Store
 .qmake.stash
-.idea/
+/.idea
 CMakeFiles/
 cmake-build-debug/
 MyCamera_automoc.dir/
