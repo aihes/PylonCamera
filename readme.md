@@ -61,7 +61,13 @@ sudo port install opencv
 1、下载dist目录下的MyCamera.exe，[点击这里](dist/MyCamera.exe)
 
 2、去Basler Web上瞎子啊Pylon SDK安装，[点击这里](https://www.baslerweb.com/en/products/software/pylon-windows/)
+
 3、安装之后的位置应该在 C:\Windows\Program Files(x86)\HQU\MyCamera目录下的Mycamera.exe
+
+4、我开发的时候用的是Mac系统，直接运行相机软件会报错。这时候我们需要在目录下面创建一个platforms文件夹，然后拷贝qwindows.dll进去就好。
+
+![](assets/windows_setup.png)
+//TODO，下次打包的时候，把platforms目录放在正确的位置
 
 点击exe文件即可运行，效果类似Mac系统。感兴趣的朋友，可以进行扩充。
 
