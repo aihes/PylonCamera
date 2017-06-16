@@ -57,6 +57,12 @@ sudo port install opencv
 论文与PPT在paper目录下面
 
 
+## 在Window上安装相机软件
+1、下载dist目录下的MyCamera.exe，[点击这里](dist/MyCamera.exe)
 
+2、去Basler Web上瞎子啊Pylon SDK安装，[点击这里](https://www.baslerweb.com/en/products/software/pylon-windows/)
+3、安装之后的位置应该在 C:\Windows\Program Files(x86)\HQU\MyCamera目录下的Mycamera.exe
+
+点击exe文件即可运行，效果类似Mac系统。感兴趣的朋友，可以进行扩充。
 
 
